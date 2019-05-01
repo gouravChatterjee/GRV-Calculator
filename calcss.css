@@ -1,0 +1,49 @@
+#container{
+	height:450px;
+	background: #192A56;
+	width: 400px;
+	box-shadow: 10px 10px #333945;
+	border-radius: 10%;
+
+
+}
+body{
+	background: #99AAAB
+}
+
+#display{
+	
+	margin-top: 20px;
+	height: 50px;
+	
+	width: 300px;
+	text-align: right;
+	font-size: 30px;
+	border-radius: 10%;
+
+}
+#buttons{
+	padding-top: 10px;
+	height: 290px;
+	width:300px;
+	margin-top: 25px;
+	background: #67E6DC;
+	border-radius: 10%;
+}
+.btn{
+	width: 60px;
+	height:50px;
+	margin: 5px;
+	font-size: 30px;
+	border-radius: 80%;
+	background-color: #EC4849; 
+}
+.btnNm{
+	width: 60px;
+	height:50px;
+	margin: 5px;
+	
+	border-radius: 90%;
+	font-size: 25px;
+	background-color: #BB2CD9;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> GRV's Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calcss.css">
+	<script type="text/javascript" src="cal.js"></script>
+</head>
+<body>
+	<center>
+		<h1>Welcome to GRV's Calculator</h1>
+		
+		<div id="container" name="con">
+			<input type="textBox" id="display" name="display">
+
+			<div id="buttons">
+				<center>
+					<table>
+						<tr>
+							<td><button  class ="btnNm"  id="b1" value="1" onclick="get(id)">1</button></td>
+							<td><button  class ="btnNm"  id="b2" value="2" onclick="get(id)" >2</button></td>
+							<td><button class ="btnNm"   id="b3" value = "3" onclick="get(id)">3</button></td>
+							<td><button  class ="btn"  id="bpl" value="+" onclick="calculate(id)">+</button></td>
+						</tr>
+						<tr>
+							<td><button  class ="btnNm"  id="b4" value="4" onclick="get(id)">4</button></td>
+							<td><button  class ="btnNm"  id="b5" value="5" onclick="get(id)">5</button></td>
+							<td><button  class ="btnNm"  id="b6" value="6" onclick="get(id)">6</button></td>
+							<td><button  class ="btn"  id="bmns" value="-" onclick="calculate(id)">-</button></td>
+						</tr>
+						<tr>
+							<td><button  class ="btnNm"  id="b7" value="7" onclick="get(id)">7</button></td>
+							<td><button  class ="btnNm"  id="b8" value="8" onclick="get(id)">8</button></td>
+							<td><button  class ="btnNm"  id="b9" value="9" onclick="get(id)">9</button></td>
+							<td><button  class ="btn"  id="bmul" value="*" onclick="calculate(id)">*</button></td>
+						</tr>
+						<tr>
+							<td><button  class ="btn"  id="del" onclick="clr(id)">CL</button></td>
+							<td><button  class ="btnNm"  id="b0" value="0" onclick="get(id)">0</button></td>
+							<td><button  class ="btn"  id="b=" value="=" onclick="getResult(id)">=</button></td>
+							<td><button  class ="btn"  id="bdvd" value="/" onclick="calculate(id)" >/</button></td>
+							
+						</tr>
+						
+
+					</table>
+					
+				</center>
+			</div>
+			
+
+
+		</div>
+
+
+	</center>
+
+</body>
+</html>
